@@ -14,6 +14,7 @@ Bu durum sistem tasarımında bilinçli olarak kullanılmıştır. Böylece kame
 Bu mesafe teorik olarak hesaplanmak yerine yaklaşık 10 metre mesafede yapılan deneme–yanılma testleri ile kalibre edilmiştir. Böylece sistem gerçek çalışma koşullarına göre ayarlanmıştır.
 
 NOTLAR:
+
 *Programın çalışabilmesi için STM tabanlı kontrol kartı ile bilgisayar arasında UART (seri haberleşme) bağlantısının kurulmuş olması gerekir.
 
 *Kod içerisinde tanımlanan serial port değerinin sisteminizde bağlı olan STM kartının portu ile aynı olması gerekir. Yanlış port seçildiğinde sistem kontrol kartı ile haberleşemez.
