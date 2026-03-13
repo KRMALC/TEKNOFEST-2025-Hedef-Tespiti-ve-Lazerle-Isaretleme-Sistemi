@@ -15,7 +15,7 @@ Bu mesafe teorik olarak hesaplanmak yerine yaklaşık 10 metre mesafede yapılan
 
 NOTLAR:
 
-*Programın çalışabilmesi için STM tabanlı kontrol kartı ile bilgisayar arasında UART (seri haberleşme) bağlantısının kurulmuş olması gerekir.
+*Programın çalışabilmesi için STM ile bilgisayar arasında UART (seri haberleşme) bağlantısının kurulmuş olması gerekir.
 
 *Kod içerisinde tanımlanan serial port değerinin sisteminizde bağlı olan STM kartının portu ile aynı olması gerekir. Yanlış port seçildiğinde sistem kontrol kartı ile haberleşemez.
 
