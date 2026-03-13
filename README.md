@@ -12,3 +12,12 @@ Algoritma görüntüde tespit edilen dairenin üst noktasını referans alır. K
 Bu durum sistem tasarımında bilinçli olarak kullanılmıştır. Böylece kamera üst noktayı hedef aldığında, lazer fiziksel konum farkı nedeniyle dairenin merkezine yakın bir noktayı vuracak şekilde hizalanır.
 
 Bu mesafe teorik olarak hesaplanmak yerine yaklaşık 10 metre mesafede yapılan deneme–yanılma testleri ile kalibre edilmiştir. Böylece sistem gerçek çalışma koşullarına göre ayarlanmıştır.
+
+NOTLAR:
+*Programın çalışabilmesi için STM tabanlı kontrol kartı ile bilgisayar arasında UART (seri haberleşme) bağlantısının kurulmuş olması gerekir.
+
+*Kod içerisinde tanımlanan serial port değerinin sisteminizde bağlı olan STM kartının portu ile aynı olması gerekir. Yanlış port seçildiğinde sistem kontrol kartı ile haberleşemez.
+
+*Serial portun boşta olması gerekir. Başka bir uygulama aynı portu kullanıyorsa bağlantı kurulamaz.
+
+*Sistemin doğru çalışabilmesi için tespit edilmek istenen dairenin Min Radius ve Max Radius değerleri sahadaki hedefe göre ayarlanmalıdır.
