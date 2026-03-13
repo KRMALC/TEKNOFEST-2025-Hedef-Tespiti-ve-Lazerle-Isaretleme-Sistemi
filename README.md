@@ -4,7 +4,7 @@ Bu proje, **OpenCV tabanlı bir bilgisayarlı görü sistemi** kullanarak kamera
 
 Sistem, görüntüde tespit edilen dairenin **üst noktasını referans alır**. Kamera bu noktayı hedef alacak şekilde konum hatasını hesaplar. Hesaplanan hata bilgisine göre motorların yönü ve hızı belirlenir.
 
-Projede kullanılan kontrol yöntemi Oransal Kontrol (Proportional Control – Kp) olup, hedef ile referans ekseni arasındaki hata büyüdükçe motor hızı artırılmaktadır..
+Projede kullanılan kontrol yöntemi Oransal Kontrol (Proportional Control – Kp) olup, hedef ile referans ekseni arasındaki hata büyüdükçe motor hızı artırılmaktadır.
 
 ## Çalışma Mantığı
 
